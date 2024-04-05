@@ -1,17 +1,1 @@
-[
-  {
-    "id": "be2701f9-7ef2-4f2c-9501-c9577b0b4e03",
-    "title": "Test note 3",
-    "text": "test test 3"
-  },
-  {
-    "id": "b4e765ea-09f9-4dc7-b41a-9b5813e3c962",
-    "title": "Test test 4",
-    "text": "blah blah blah"
-  },
-  {
-    "id": "66e98148-5a80-43f1-96c1-09531d8b6999",
-    "title": "Note test 5",
-    "text": "test test 5"
-  }
-]
+[{"id":"be2701f9-7ef2-4f2c-9501-c9577b0b4e03","title":"Test note 3","text":"test test 3"},{"id":"b4e765ea-09f9-4dc7-b41a-9b5813e3c962","title":"Test test 4","text":"blah blah blah"},{"id":"66e98148-5a80-43f1-96c1-09531d8b6999","title":"Note test 5","text":"test test 5"},{"id":"f6b9f4d5-e493-41b7-acf3-423cfdae71a2","title":"Note Test 6","text":"Note test note test"}]
