@@ -1,3 +1,4 @@
+const { parse } = require("path");
 const router = require("express").Router();
 const { readFile, writeFile } = require("fs").promises;
 
@@ -23,6 +24,19 @@ router.get("/", async (req, res) => {
   try {
     const existingDB = await readFile("db/db.json");
     res.send(existingDB);
+  } catch (error) {
+    res.status(500).json(error.message);
+  }
+});
+
+router.delete("/:id", async (req, res) => {
+  try {
+    const noteID = req.params.id;
+    const existingDB = await readFile("db/db.json");
+    const parsedDB = JSON.parse(existingDB);
+    json.filter((parsedDB) => parsedDB.id !== noteID);
+    await writeFile("db/db.json", JSON.stringify(parsedDB));
+    res.send(parsedDB);
   } catch (error) {
     res.status(500).json(error.message);
   }
