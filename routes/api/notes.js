@@ -34,9 +34,9 @@ router.delete("/:id", async (req, res) => {
     const noteID = req.params.id;
     const existingDB = await readFile("db/db.json");
     const parsedDB = JSON.parse(existingDB);
-    json.filter((parsedDB) => parsedDB.id !== noteID);
-    await writeFile("db/db.json", JSON.stringify(parsedDB));
-    res.send(parsedDB);
+    const newARR = parsedDB.filter((filteredDB) => filteredDB.id !== noteID);
+    await writeFile("db/db.json", JSON.stringify(newARR));
+    res.send(newARR);
   } catch (error) {
     res.status(500).json(error.message);
   }

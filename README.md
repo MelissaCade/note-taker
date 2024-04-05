@@ -1,4 +1,5 @@
 # note-taker
+
 Take notes on an interactive page.
 
 ## Description
@@ -31,7 +32,7 @@ Render deployment: https://note-taker-38yb.onrender.com
 
 ## Credits
 
-This page uses the materials and resources provided in the University of Denver Coding Bootcamp. I also used the following websites as reference to figure out how to do everything:
+This page uses the base code, materials, and resources provided in the University of Denver Coding Bootcamp. I also used the following websites as reference to figure out how to do everything:
 
 stack overflow - https://stackoverflow.com/  
 free code camp - https://www.freecodecamp.org/  
@@ -39,3 +40,4 @@ geeks for geeks - https://www.geeksforgeeks.org/
 mdn web docs - https://developer.mozilla.org/en-US/  
 w3schools - https://www.w3schools.com/
 
+I also had help from Eric Sayer, a tutor through the University of Denver Coding Bootcamp.
